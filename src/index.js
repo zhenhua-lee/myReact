@@ -11,5 +11,4 @@ const Hello = React.createClass({
 
 const ele = React.createElement(Hello, {hello: 'mt&dp'});
 
-
 ReactDOM.render(ele, document.getElementById('app'));
